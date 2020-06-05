@@ -1,0 +1,11 @@
+@mixin Bold {
+	font-family: $fontfam;
+	font-style: $fontstyle;
+	font-weight: $fontxbold;
+}
+
+@mixin Light {
+	font-family: $fontfam;
+	font-style: $fontstyle;
+	font-weight: $fontxlight;
+}

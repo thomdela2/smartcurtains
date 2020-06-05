@@ -1,0 +1,6 @@
+@import './abstracts/variables';
+@import './abstracts/functions';
+
+*, body { margin: 0; padding: 0; }
+
+@import './components/components';

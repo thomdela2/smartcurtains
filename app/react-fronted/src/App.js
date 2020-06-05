@@ -1,12 +1,15 @@
+// @ts-nocheck
 import React from 'react';
-import './App.css';
+import './assets/styles/index.scss';
+
+import { Image } from './components';
 
 function App() {
   return (
     <div className="App">
 
-        <h1>{window.name}</h1>
-        <p>{window.token}</p>
+  <p>{window.token}</p>
+      <Image></Image>        
 
     </div>
   );
