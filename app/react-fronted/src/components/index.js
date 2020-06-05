@@ -1,5 +1,7 @@
-import { Image } from './homepage';
+import { Image, Identifier, Btn } from './homepage';
 
 export {
 	Image,
+	Identifier,
+	Btn,
 }
