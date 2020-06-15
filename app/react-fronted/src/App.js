@@ -1,18 +1,16 @@
-// @ts-nocheck
-import React from 'react';
+import React, { Component } from 'react'
+import { BrowserRouter as Router, Redirect, Switch } from 'react-router-dom';
+
 import './assets/styles/index.scss';
 
-import { Image, Identifier, Btn } from './components';
+import { Identifier, Btn, Image } from './components';
 
 function App() {
   return (
     <div className="App">
-
-  <p>{window.token}</p>
-      <Image></Image>      
-      <Btn></Btn>  
-      <Identifier></Identifier>
-
+      <Image/>
+      <Identifier/>
+      <Btn/>
     </div>
   );
 }
